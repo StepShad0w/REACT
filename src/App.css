@@ -1,38 +1,129 @@
-.App {
-  text-align: center;
-}
+@import "null.css";
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
+  border-bottom: solid 1px;
+  border-left: solid 1px;
+  padding-bottom:10px ;
+  height: 50px;
+  width: 100vw;
+  padding-top:10px ;
+  background: linear-gradient(to left,#64e6ca, #e591e1);
+  position: fixed;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
+.wraper {
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
+  
+	
+ 
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#root{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  background: linear-gradient(to bottom,#be0a0a, #0750f0);
+}
+body{
+  min-height: 100%;
+	overflow-x:hidden;
+	display: flex;
+	flex-direction: column;
+}
+Fragment{
+  background: linear-gradient(to bottom,#be0a0a, #0750f0);
+}
+
+main{
+  max-width: 1400px;
+  margin: 0  auto;
+  background-color: antiquewhite;
+  height: 100vh;
+}
+.TEXT{
+  width: 500px;
+  height: 300px;
+  background-color: linear-gradient(#aa2020, #9198e5);
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  font-size: 60px;
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
-
-.App-link {
-  color: #61dafb;
+/* li{
+  display: flex;
+  flex-direction: row;
+ 
+  
+  border: solid red;
+  border-radius: 10px;
+  min-width: 50%;
+  max-width: 90%;
+  align-self: center;
 }
+ul{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-right:-10px ;
+  justify-content: center;
+  align-self: center; 
+}*/
+ul{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 60px;
+  
+}
+.title{
+  margin: 10px;
+}
+li{
+  background-color: wheat;
+  display: flex;
+  border: solid 1px aqua;
+  border-radius: 15px;
+ 
+  
+}
+.result{
+  border: solid red 1px;
+  width: 150px;
+  border-radius: 15px;
+  text-align: center;
+}
+.time{
+  display: flex;
+  justify-content: space-around;
+  position: relative to relative;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.conteiner{
+  margin-top: 50px;
+  
+}
+.border{
+  width: 100vw;
+  
+  background-color: black;
+  position:absolute;
+  top:0;
+  left: 0;
+  transition: all 0.5s ease-in ;
+
+}
+.huy{
+  display: flex;
+  justify-content: end;
+}
+.center{
+  text-align: center;
+  font-style: italic;
+  font-size: 40px;
+  font-weight: 800;
 }
